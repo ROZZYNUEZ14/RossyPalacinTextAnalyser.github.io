@@ -1,0 +1,64 @@
+*{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+body{
+    background-image: url(https://www.xtrafondos.com/wallpapers/resized/planetas-arte-digital-abstracto-10524.jpg?s=large);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+div{
+    display: grid;
+    place-items: center;
+    
+    
+}
+
+header{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px 5px 30px 30px;
+    padding: 1px 70px 1px 70px;
+    margin: 30px;
+    
+}
+
+textarea[name="user-input"]{
+    color: white;
+    padding: 30px;
+    border-color: black;
+    border-width: 5px;
+    background: linear-gradient(223deg, rgba(66,18,55,1) 0%, rgba(15,16,27,1) 0%, rgba(61,18,53,1) 52%, rgba(37,14,60,1) 66%, rgba(43,16,69,1) 78%, rgba(54,52,95,1) 100%, rgba(18,17,32,1) 100%, rgba(0,0,0,1) 100%, rgba(18,75,84,1) 100%);
+    border-radius: 20px 20px 20px 20px;
+    font-family: "Courier New";
+}
+
+.metric{   
+    padding: 10px;
+    border-radius: 5px 20px 5px 20px;
+    float: left;
+    margin: 5px;
+    color: white;
+    background-color: rgb(14, 14, 14);
+}
+
+#reset-button{
+    background-color: rgb(253, 246, 246);
+    border-color: rgb(211, 26, 26);
+    border-width: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 30px 30px 5px 5px;
+    padding: 1px 20px 1px 20px;
+    margin: 30px;
+}
+
+.metric{
+    background-color: rgb(0, 0, 0);
+}
